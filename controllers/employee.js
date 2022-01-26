@@ -1,7 +1,7 @@
 
 const getEmployees =   async (req, res, next) => {
   const employeeService = employeeService.allEemployees
-  return res.json({ employeeService });
+  return res.status(SUCCESS).json({ employeeService });
 }
 
 module.exports = {
