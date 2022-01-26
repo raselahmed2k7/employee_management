@@ -1,8 +1,10 @@
+
+const EmployeeModel = require('../model/employee')
 const allEemployees =  async () => {
   
   const employees = EmployeeModel.all 
-
-  return res.json({userDTO });
+console.log(employees);
+  return employees;
 }
 
 module.exports = {

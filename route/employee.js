@@ -3,6 +3,6 @@ const employeeController = require("../controllers/employee");
 const router = express.Router();
 router
   .route("/get")
-  .get(employeeController.getEmployees);
+  .get(employeeController.employees);
   
 module.exports = router;

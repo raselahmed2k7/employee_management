@@ -1,6 +1,6 @@
-
-const all =   async (req, res, next) => {  
-  const employeesData = fs.readFileSync(dataPath)
+const employeeLists = '../config/employeeLists.json' // path to our JSON file
+const all = async () => {  
+  const employeesData = fs.readFileSync(employeeLists)
   return JSON.parse(employeesData)   
 }
 
