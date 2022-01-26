@@ -1,0 +1,26 @@
+{
+    "0": {
+        "name": "Employee one",
+        "image": "/path/image1.jpg",
+        "designation": "Manager",
+        "salary": "80000"
+    },
+    "1": {
+        "name": "employee two",
+        "image": "/path/image2.jpg",
+        "designation": "Assistant Manger",
+        "salary": "60000"
+    },
+    "2": {
+        "name": "Employee three",
+        "image": "/path/image3.jpg",
+        "designation": "Assistant Manager",
+        "salary": "60000"
+    },
+    "3": {
+        "name": "Employee four",
+        "image": "/path/image4.jpg",
+        "designation": "Junior Executive",
+        "salary": "30000"
+    }
+}
